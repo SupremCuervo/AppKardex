@@ -1,0 +1,18 @@
+{
+  "rules": {
+    ".read": "auth != null",
+    ".write": "auth != null",
+    "Users": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    },
+    "cliente": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    },
+    "conductor": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    }
+  }
+}
